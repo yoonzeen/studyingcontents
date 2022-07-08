@@ -1,0 +1,41 @@
+@font-face {
+    src: url(./assets/CookieRunRegular.03f65b05.otf);
+    font-family: 'CookieRunRegular';
+}
+@font-face {
+    src: url(./assets/NanumSquareRoundOTFL.d02d6e3f.otf);
+    font-family: 'NanumSquareRound';
+    font-weight: 300;
+}
+@font-face {
+    src: url(./assets/NanumSquareRoundOTFR.2d12afd2.otf);
+    font-family: 'NanumSquareRound';
+    font-weight: 400;
+}
+@font-face {
+    src: url(./assets/NanumSquareRoundOTFEB.c1e41280.otf);
+    font-family: 'NanumSquareRound';
+    font-weight: 500;
+}
+@font-face {
+    src: url(./assets/NanumSquareRoundOTFB.d2f79ca3.otf);
+    font-family: 'NanumSquareRound';
+    font-weight: 600;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#canvas-wrapper {
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+    color: #333;
+}
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+.cp {
+    cursor: url(./assets/rainbow.1ded3d6e.cur), default;
+}
